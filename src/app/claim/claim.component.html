@@ -1,0 +1,13 @@
+
+<div *ngIf="game$ |async as games">
+    <div *ngFor="let game of games" class="card">
+      <h5 class="card-title-custom" #prizeAmount> {{game.prizeAmount}} {{game.gamePrize}}  </h5>
+      <h6 class="card-title-custom">on {{game.gameName}} </h6>
+
+      <!-- <h6 class="card-subtitle-custom"> 00:{{game.countdown }}s </h6> to be used once gamecountdown observable is functional --> 
+      <h6 class="card-subtitle-custom"> 00:{{displayCounter | async}}s </h6>
+
+      <button type="button" (click)="onClick()" class="btn-primary-custom">Claim</button>
+
+    </div>
+</div>    

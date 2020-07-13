@@ -1,0 +1,224 @@
+@media (min-width: 320px) {
+    .card {
+        width: 300px;
+        height: 290px;
+        border-radius: .25rem;
+        margin: 3rem;
+        padding: 2rem;
+        font-family: HelveticaNeue-Bold;  
+        font-weight: bolder;
+        font-size: 20px;
+        color: #00A49C;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 50px;
+        }
+
+    .card-subtitle-custom {
+        font-family: HelveticaNeue-Medium;
+        font-size: 20px;
+        color: #FF4DC1;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+    .btn-primary-custom {
+        background: #DDE4E4;
+        border-radius: 27.5px;
+        border: none;
+        font-family: Helvetica-Bold;
+        font-size: 22px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 193px;
+        height: 55px;
+        margin: auto;
+
+    }
+
+    .card-title-custom {
+        font-family: HelveticaNeue-Bold;
+        font-size: 24px;
+        font-weight: bolder;
+        color: #00A49C;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 50px;
+        word-wrap: break-word;
+        max-width: 290px;
+        align-self: center;
+    }
+
+    .svgicon {
+        padding: 12px;
+    }
+
+}
+
+
+@media (min-width: 480px) {
+    .card {
+        width: 350px;
+        height: 290px;
+        border-radius: .25rem;
+        margin: 5rem;
+        padding: 2rem;
+        font-family: HelveticaNeue-Bold;  
+        font-weight: bolder;
+        font-size: 29px;
+        color: #00A49C;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 50px;
+        }
+
+    .card-subtitle-custom {
+        font-family: HelveticaNeue-Medium;
+        font-size: 29px;
+        color: #00A49C;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+    .btn-primary-custom {
+        border-radius: 27.5px;
+        border: none;
+        font-family: Helvetica-Bold;
+        font-size: 22px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 193px;
+        height: 55px;
+        margin: auto;
+
+    }
+
+    .card-title-custom {
+        font-family: HelveticaNeue-Bold;
+        font-size: 29px;
+        color: #00A49C;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 50px;
+    }
+
+}
+
+@media (min-width: 576px) { 
+        .card {
+            width: 350px;
+            height: 290px;
+            border-radius: .25rem;
+            margin: 5rem;
+            padding: 2rem;
+            font-family: HelveticaNeue-Bold;  
+            font-weight: bolder;
+            font-size: 29px;
+            color: #00A49C;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 50px;
+            }
+
+        .card-subtitle-custom {
+            font-family: HelveticaNeue-Medium;
+            font-size: 29px;
+            color: #00A49C;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 35px;
+        }
+
+
+        .btn-primary-custom {
+
+            border-radius: 27.5px;
+            border: none;
+            font-family: Helvetica-Bold;
+            font-size: 22px;
+            font-weight: bolder;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 35px;
+            width: 193px;
+            margin: auto;
+
+        }
+
+        .card-title-custom {
+            font-family: HelveticaNeue-Bold;
+            font-size: 29px;
+            color: #00A49C;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 50px;
+        }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  
+
+.card {
+    position: relative;
+    display: flex;
+    align-self: center;
+    width: 600px;
+    height: 290px;
+    border-radius: .25rem;
+    margin: 5rem;
+    padding: 2rem;
+    font-family: HelveticaNeue-Bold;  
+    font-weight: bolder;
+    font-size: 30px;
+    color: #00A49C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.card-subtitle-custom {
+    font-family: HelveticaNeue-Medium;
+    font-size: 30px;
+    color: #00A49C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.btn-primary-custom {
+    border-radius: 27.5px;
+    border: none;
+    font-family: Helvetica-Bold;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+    width: 193px;
+    height: 55px;
+    margin: auto;
+
+}
+
+.card-title-custom {
+    font-family: HelveticaNeue-Bold;
+    font-size: 30px;
+    color: #00A49C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 50px;
+}
+}

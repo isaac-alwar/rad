@@ -1,0 +1,14 @@
+
+<div class="container-custom" *ngIf="displayClaim; then claim; else ticked"></div>
+
+<ng-template #claim class="container">
+    <app-claim (claimEvent)="onClaim()" [gameCountDown]></app-claim>
+</ng-template>
+
+
+<ng-template #ticked>
+    <app-claimticked (claimClicked)="claimClicked()"></app-claimticked>
+</ng-template>
+
+
+<router-outlet></router-outlet>

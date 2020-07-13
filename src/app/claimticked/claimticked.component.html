@@ -1,0 +1,8 @@
+<div *ngFor="let game of game$ |async as games" class="card">
+    <h5 class="card-title-custom"> 
+      <span >You have {{game.prizeAmount}} {{game.gamePrize}} to use now </span>
+    </h5>
+    <button type="button" (click)="onClick()"  class="btn-primary-custom">
+      <img class="svgicon" src="../../assets/icon-tick.svg">
+    </button>
+  </div>
